@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0cd6e02-40d8-49a5-8f27-48c4cf4343a4" name="Default Changelist" comment="" />
+    <list default="true" id="c0cd6e02-40d8-49a5-8f27-48c4cf4343a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_tarefas_war_exploded/WEB-INF/classes/br/com/caelum/tarefas/controller/TarefasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_tarefas_war_exploded/WEB-INF/classes/br/com/caelum/tarefas/controller/TarefasController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_tarefas_war_exploded/WEB-INF/classes/br/com/caelum/tarefas/dao/TarefaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_tarefas_war_exploded/WEB-INF/classes/br/com/caelum/tarefas/dao/TarefaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_tarefas_war_exploded/WEB-INF/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_tarefas_war_exploded/WEB-INF/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj21-tarefas/br/com/caelum/tarefas/controller/TarefasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-tarefas/br/com/caelum/tarefas/controller/TarefasController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj21-tarefas/br/com/caelum/tarefas/dao/TarefaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-tarefas/br/com/caelum/tarefas/dao/TarefaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/tarefas/controller/TarefasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/tarefas/controller/TarefasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/tarefas/dao/TarefaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/tarefas/dao/TarefaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-context.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -29,7 +43,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1UFLAhluNI17iyNpn0ohZNtYCIu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/validation-api-2.0.1.Final.jar!/" />
@@ -42,6 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -158,11 +175,22 @@
       <option name="presentableId" value="Default" />
       <updated>1574947254463</updated>
       <workItem from="1574947258196" duration="616000" />
-      <workItem from="1574947891714" duration="11838000" />
+      <workItem from="1574947891714" duration="14912000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

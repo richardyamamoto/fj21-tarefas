@@ -1,7 +1,10 @@
 package br.com.caelum.tarefas.dao;
 
-import br.com.caelum.tarefas.conexao.ConnectionFactory;
 import br.com.caelum.tarefas.modelo.Tarefa;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -11,11 +14,17 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+@Repository
 public class TarefaDao {
     private final Connection connection;
 
-    public TarefaDao() {
-        this.connection = new ConnectionFactory().getConnection();
+    @Autowired
+    public TarefaDao(DataSource dataSource) {
+        try{
+            this.connection = dataSource.getConnection();
+        }catch(SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void adiciona(Tarefa tarefa) {
